@@ -39,7 +39,7 @@
 
 - Components
 - Framer Motion
-- High-level Components
+- High Order Components
 - Netlify
 
 ### Video Presentation
