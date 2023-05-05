@@ -20,31 +20,31 @@
 
 # GORDON-TINYEFUZA-PORTFOLIO <a name="about-project"></a>
 
-\*\*This is my personal portfolio which I am going to build with React, SCSS, JavaScript, and Sanity content management platform.
+- This is my personal portfolio which I am going to build with React, SCSS, JavaScript, and Sanity content management platform.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- GraphQL
-- Apollo-Server
-- MongoDB
-- Mongoose
+- React
+- JavaScript
+- Sanity
+- SCSS
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- GraphQL
+- React
 - Javascript
+- SCSS
 
 ### Key Features <a name="key-features"></a>
 
-- Nation Model
-- Mutations
-- Queries
-- TypeDefs
-- Resolvers
+- Components
+- Framer Motion
+- High-level Components
+- Netlify
 
 ### Video Presentation
 
-- [Video-Link](https://drive.google.com/drive/folders/1ORjxf1RCI0hjcHSCEI3vMd8b-IgVpdIE)
+- Coming Soon!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,7 +78,7 @@ To run the project, execute the following command:
 
 ### Perform Queries
 
-- Freely perform the CRUD operations from your Apollo Server playground
+- Freely perform modifications from the Sanity desk or playground.
 
 ### Deployment
 
@@ -96,8 +96,6 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Add React]
-- [Web Apllication implementation]
 - [Add Framer Motion]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -118,7 +116,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to appreciate Cooper codes for providing the resources for this project.
+I would like to appreciate JSM (JavaScript Mastery) for providing the resources for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
