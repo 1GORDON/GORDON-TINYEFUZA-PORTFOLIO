@@ -61,20 +61,20 @@ To get a local copy up and running, follow these steps.
 
 ### Setup
 
-- Clone this repository to your desired folder: https://github.com/1GORDON/GraphAPI-DabbleLabs.git
+- Clone this repository to your desired folder: https://github.com/1GORDON/GORDON-TINYEFUZA-PORTFOLIO.git
 
 ### Install
 
 Install this project with:
 
-- cd GraphAPI-DabbleLabs
+- cd GORDON-TINYEFUZA-PORTFOLIO/backend_sanity
 - npm install
 
 ### Usage
 
 To run the project, execute the following command:
 
-- npm start
+- npm run dev
 
 ### Perform Queries
 
@@ -98,6 +98,7 @@ To run the project, execute the following command:
 
 - [Add React]
 - [Web Apllication implementation]
+- [Add Framer Motion]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
