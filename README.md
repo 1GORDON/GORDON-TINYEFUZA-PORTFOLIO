@@ -67,14 +67,14 @@ To get a local copy up and running, follow these steps.
 
 Install this project with:
 
-- cd GORDON-TINYEFUZA-PORTFOLIO/backend_sanity
+- cd GORDON-TINYEFUZA-PORTFOLIO/frontend_react
 - npm install
 
 ### Usage
 
 To run the project, execute the following command:
 
-- npm run dev
+- npm start
 
 ### Perform Queries
 
