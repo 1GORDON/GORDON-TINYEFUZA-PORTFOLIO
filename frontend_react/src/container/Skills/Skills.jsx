@@ -1,22 +1,22 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
-import ReactTooltip from "react-tooltip";
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
+import * as ReactTooltip from "react-tooltip";
 
-import { AppWrap, MotionWrap } from "../../wrapper";
-import { urlFor, client } from "../../client";
-import "./Skills.scss";
+import { AppWrap, MotionWrap } from '../../wrapper';
+import { urlFor, client } from '../../client';
+import './Skills.scss';
 
 const Skills = () => {
-  const [experiences, setExperiences] = useState([]);
+  // const [experiences, setExperiences] = useState([]);
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "experiences"]';
+    // const query = '*[_type == "experiences"]';
     const skillsQuery = '*[_type == "skills"]';
 
-    client.fetch(query).then((data) => {
-      setExperiences(data);
-    });
+    // client.fetch(query).then((data) => {
+    //   setExperiences(data);
+    // });
 
     client.fetch(skillsQuery).then((data) => {
       setSkills(data);
@@ -46,9 +46,12 @@ const Skills = () => {
             </motion.div>
           ))}
         </motion.div>
-        <div className="app__skills-exp">
+        {/* <div className="app__skills-exp">
           {experiences.map((experience) => (
-            <motion.div className="app__skills-exp-item" key={experience.year}>
+            <motion.div
+              className="app__skills-exp-item"
+              key={experience.year}
+            >
               <div className="app__skills-exp-year">
                 <p className="bold-text">{experience.year}</p>
               </div>
@@ -79,14 +82,14 @@ const Skills = () => {
               </motion.div>
             </motion.div>
           ))}
-        </div>
+        </div> */}
       </div>
     </>
   );
 };
 
 export default AppWrap(
-  MotionWrap(Skills, "app__skills"),
-  "skills",
-  "app__whitebg"
+  MotionWrap(Skills, 'app__skills'),
+  'skills',
+  'app__whitebg',
 );
